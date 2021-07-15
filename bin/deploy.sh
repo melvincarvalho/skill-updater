@@ -13,7 +13,7 @@ BTMEXE="ssh ubuntu@157.90.144.229"
 
 # get latest from git
 git pull origin "${BRANCH}"
-if [ $? -eq 0 ]
+if [ $? -ne 0 ]
 then
   echo git pull failed
   exit
