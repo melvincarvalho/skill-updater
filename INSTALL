@@ -6,7 +6,7 @@ npm install skill-updater
 # add to package.json
 
   "scripts": {
-    "server": "pm2 start --name updater ./node_modules/skill-updater/bin/serve.js"
+    "updater": "pm2 start --name updater ./node_modules/skill-updater/bin/deploy.sh --restart-delay=300000"
   },
 
 # CONFIG
