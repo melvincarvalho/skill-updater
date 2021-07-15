@@ -1,0 +1,16 @@
+# PREREQUISITES
+sudo npm install -g pm2 gitmark
+npm install skill-updater
+
+# INSTALL
+# add to package.json
+
+  "scripts": {
+    "server": "pm2 start --name updater ./node_modules/skill-updater/bin/serve.js"
+  },
+
+# CONFIG
+
+# NOTES
+# --name updater may be changed to the name of your agent
+# gitmark updater requires access to a tx broadcast server for now
