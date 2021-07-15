@@ -1,6 +1,6 @@
 {
   "name": "skill-updater",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "aam skill updater",
   "main": "index.js",
   "scripts": {

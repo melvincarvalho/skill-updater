@@ -1,16 +1,29 @@
 #!/bin/bash
 
 TMPFILE="/tmp/gitmark.$$.txt"
+
 DEFAULT_MESSAGE="webcredits"
+DEFAULT_BRANCH="gh-pages"
+
 MESSAGE="${1:-$DEFAULT_MESSAGE}"
+BRANCH="${2:-$DEFAULT_BRANCH}"
+
 # set up btm as remote exe
 BTMEXE="ssh ubuntu@157.90.144.229"
 
+# get latest from git
+git pull origin "${BRANCH}"
+if [ $? -eq 0 ]
+then
+  echo git pull failed
+  exit
+fi
 
-git pull origin gh-pages
+# commit changes
 git add webcredits
 git commit -m "$MESSAGE"
 
+# check for git mark
 git log -1 --pretty=%s | grep '^gitmark '
 if [ $? -eq 0 ]
 then
@@ -18,8 +31,10 @@ then
   exit
 fi
 
-git push origin gh-pages
+# push changes to git
+git push origin "${BRANCH}"
 
+# git mark
 # run twice in case new tx is not there
 git mark
 sleep 1
@@ -43,5 +58,6 @@ fi
 RES=$(git commit --allow-empty -m "gitmark ${HASH}")
 echo "${RES}"
 
-git push origin gh-pages
+# add empty commit pointer
+git push origin "${BRANCH}"
 
