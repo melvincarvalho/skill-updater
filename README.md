@@ -16,8 +16,10 @@ Update an autonomous agent
   
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/melvincarvalho/skill-updater/blob/gh-pages/LICENSE)
-![npm](https://img.shields.io/npm/v/skill-updater)
+[![npm](https://img.shields.io/npm/v/skill-updater)](https://npmjs.com/package/skill-updater)
 [![npm](https://img.shields.io/npm/dw/skill-updater.svg)](https://npmjs.com/package/skill-updater)
+[![Github Stars](https://img.shields.io/github/stars/melvincarvalho/skill-updater.svg)](https://github.com/melvincarvalho/skill-updater/)
+
 
 ## Introduction
 
