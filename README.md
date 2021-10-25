@@ -28,7 +28,7 @@ Updater is a modular skill to be used in composing [autonomous agents](https://a
 ## Installation
 
 ```sh
-npm install skill-updater
+aam skill updater
 ```
 
 ## Dependencies
