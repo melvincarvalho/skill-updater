@@ -31,6 +31,11 @@ Updater is a modular skill to be used in composing [autonomous agents](https://a
 npm install skill-updater
 ```
 
+## Dependencies
+
+- skill-git
+- skill-gitmark
+
 ## License
 
 - MIT
