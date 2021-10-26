@@ -33,8 +33,8 @@ aam skill updater
 
 ## Dependencies
 
-- skill-git
-- skill-gitmark
+skill-git  
+skill-gitmark
 
 ## License
 
