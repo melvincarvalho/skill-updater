@@ -36,6 +36,6 @@ aam skill updater
 [skill-git](https://github.com/melvincarvalho/skill-git)  
 [skill-gitmark](https://github.com/melvincarvalho/skill-gitmark)  
 
-## License
+## ⚖️ License
 
-- MIT
+This project is under the MIT License. See the [LICENSE](https://github.com/melvincarvalho/aam/blob/skill-updater/LICENSE) file for the full license text.
