@@ -1,8 +1,9 @@
 {
   "name": "skill-updater",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "aam skill updater",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +21,10 @@
     "url": "https://github.com/melvincarvalho/skill-updater/issues"
   },
   "homepage": "https://github.com/melvincarvalho/skill-updater#readme",
-  "dependencies": {}
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cuid": "^2.1.8",
+    "gitlog": "^4.0.4",
+    "ws": "^8.2.3"
+  }
 }
