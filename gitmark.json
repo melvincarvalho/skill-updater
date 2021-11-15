@@ -1,0 +1,8 @@
+{
+  "@id": "gitmark:a0e99090771f345fab4d5e3ac155d15cbcde62b2e418ac4739073861f2cfad99:1",
+  "genesis": "gitmark:a0e99090771f345fab4d5e3ac155d15cbcde62b2e418ac4739073861f2cfad99:1",
+  "nick": "gitmark",
+  "package": "./package.json",
+  "repository": "./"
+}
+
